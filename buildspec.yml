@@ -16,7 +16,6 @@ phases:
       - $(aws ecr get-login --no-include-email)
       - export KUBECONFIG=$HOME/.kube/config
       - pip3 install --upgrade pip
-      - pytest
 
   build:
     commands:
