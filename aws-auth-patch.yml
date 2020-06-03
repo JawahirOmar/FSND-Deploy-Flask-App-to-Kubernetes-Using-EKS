@@ -10,7 +10,6 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::539716262368:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-1GQ22X15ZY828
       username: system:node:{{EC2PrivateDNSName}}
-
   mapUsers: |
     []
 kind: ConfigMap
